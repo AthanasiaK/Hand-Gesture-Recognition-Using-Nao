@@ -17,6 +17,8 @@ See the *requirements.txt* file or simply run:
 I think that I have wrote them all/
 
 # Training your model
+Create an empty folder named model
+Unzip the data.zip inside the data folder
 Make sure that you have the needed dataset and then run
 
  python train.py --dataset data --model model/activity.model --label-bin model/lb.pickle --epochs 50
